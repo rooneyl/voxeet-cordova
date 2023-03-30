@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "cordova-android": "10.1.2",
+    "cordova-plugin-voxeet": "git+https://github.com/voxeet/voxeet-uxkit-cordova.git#4698d533e882ba76eceab25adcae5ffec4311915"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-voxeet": {
+        "VOXEET_CORDOVA_CONSUMER_KEY": "",
+        "VOXEET_CORDOVA_CONSUMER_SECRET": ""
+      }
+    }
+  }
+}
